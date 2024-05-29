@@ -15,8 +15,3 @@ else
 begin
 	commit transaction;
 end
-
-
-
-
-
