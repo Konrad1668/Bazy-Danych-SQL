@@ -43,16 +43,16 @@ ALTER TABLE rozliczenia.pensje ADD FOREIGN KEY (id_premii) REFERENCES rozliczeni
 
 insert into rozliczenia.pracownicy (id_pracownika, imie, nazwisko, adres, telefon)
 values
-(1, 'Maciej', 'Stolarz','Laczna 1, Katowice','519 123 235'),
-(2, 'Tomasz', 'Władca', 'Wspólna 12, Bielsko-Biała','612 123 532'),
-(3, 'Wiktoria', 'Jacek', 'Ryzyka deszczowego 2, Opole','450 213 723'),
-(4, 'Wojtek', 'Pruchnica', 'Kasztanowa 70, Żywiec','631 123 532'),
-(5, 'Mikolaj', 'Skrzatowski', 'Orna 49, Rybarzowice','794 124 653'),
-(6, 'Tymek', 'Szefuncio', 'Aleja Wojska polskiego, Oświecim','540 235 124'),
-(7, 'Olaf', 'Tytaniczna-Hydra', 'Baron pit 12d, Summoners Rift','450 123 512'),
-(8, 'Marek', 'Marucha', 'Wyscigowa 40, Służewiec','124 523 123'),
-(9, 'Szymon', 'Margaryna', 'Stefanii Sempołowskiej 63, Bielsko-Biała','33 819 82 00'),
-(10, 'Jacek', 'Skibicki', 'Almestadbakken 45, Brandal','125 523 234');
+(1, 'Maciej', 'Stolarz','Laczna 1, Katowice','519123235'),
+(2, 'Tomasz', 'Władca', 'Wspólna 12, Bielsko-Biała','612123532'),
+(3, 'Wiktoria', 'Jacek', 'Ryzyka deszczowego 2, Opole','450213723'),
+(4, 'Wojtek', 'Pruchnica', 'Kasztanowa 70, Żywiec','631123532'),
+(5, 'Mikolaj', 'Skrzatowski', 'Orna 49, Rybarzowice','794124653'),
+(6, 'Tymek', 'Szefuncio', 'Aleja Wojska polskiego, Oświecim','540235124'),
+(7, 'Olaf', 'Tytaniczna-Hydra', 'Baron pit 12d, Summoners Rift','450123512'),
+(8, 'Marek', 'Marucha', 'Wyscigowa 40, Służewiec','124523123'),
+(9, 'Szymon', 'Margaryna', 'Stefanii Sempołowskiej 63, Bielsko-Biała','338198200'),
+(10, 'Jacek', 'Skibicki', 'Almestadbakken 45, Brandal','125523234');
 
 insert into rozliczenia.godziny (id_godziny, data, liczba_godzin, id_pracownika)
 values
