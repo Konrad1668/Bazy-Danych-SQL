@@ -1,0 +1,20 @@
+1. Zaleznosci funkcyjne
+id_produktu -> nazwa_produktu, cena_produktu, VAT
+suma_netto, VAT -> suma_brutto
+id_klienta, data_zamowienia -> nazwa_klient, suma_brutto, suma_netto
+id_produktu, id_klienta, data_zamowienia -> ilosc
+
+2. Klucze kandydujáce
+id_produktu
+id_klienta
+data_zamowienia
+
+3. Tabela Pomieszczenia
+id_pomieszczenia -> id_budynku, nuemr_pomieszczenia, powierzchnia, liczba_okien, liczba_drzwi, ulica, miasto, kod_pocztowy
+id_budynku -> id_pomieszczenia, number_pomieszczenia
+kod_pocztowy -> miasto
+id_budynku -> kod_pocztowy, miasto, ulica
+
+id_budynku
+id_pomieszczenia
+numer_pomieszczenia
